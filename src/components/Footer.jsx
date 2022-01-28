@@ -1,5 +1,5 @@
 import { MdEmail, MdPhone } from "react-icons/md";
-import { FaFacebook, FaInstagram, FaTelegramPlane, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaTelegramPlane, FaYoutube } from "react-icons/fa";
 import style from "../styles/Footer.module.css";
 
 const Footer = () => {
