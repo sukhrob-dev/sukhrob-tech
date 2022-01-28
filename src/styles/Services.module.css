@@ -1,0 +1,58 @@
+.container {
+    margin: 40px auto;
+    width: 90%;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.heading h2 {
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 400;
+    background: url("../../public/images/brush.png");
+    background-size: cover;
+    color: white;
+    padding: 10px 40px;
+    background-repeat: no-repeat;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryItem {
+    margin: 20px;
+}
+
+.galleryItem h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.galleryItem p {
+    margin: 10px 0;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+    max-width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+    .img img {
+        max-width: 300px;
+    }
+
+    .gallery {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,101 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.heading h2 {
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 400;
+    background: url("../../public/images/brush.png");
+    background-size: cover;
+    color: white;
+    padding: 20px 70px;
+    background-repeat: no-repeat;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px #545454;
+    transform: scale(1.1);
+}
+
+.icon svg {
+    font-size: 32px;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.card:nth-child(2) {
+    margin: 0 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+.prices {
+    font-size: 24px;
+}
+
+.price {
+    display: inline-block;
+    background: url("../../public/images/brush.png");
+    background-size: cover;
+    color: white;
+    padding: 10px 40px;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
+
+.btn {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    transition: all 0.35s ease;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .card:nth-child(2) {
+        margin-bottom: 40px;
+    }
+}

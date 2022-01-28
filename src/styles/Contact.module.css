@@ -1,0 +1,95 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.heading h2 {
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 400;
+    background: url("../../public/images/brush.png");
+    background-size: cover;
+    color: white;
+    padding: 12px 60px;
+    background-repeat: no-repeat;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input, textarea {
+    outline: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+.input:focus, textarea:focus {
+    border: 1px solid black;
+}
+
+::placeholder {
+    color: black;
+}
+
+textarea {
+    width: 100%;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.buttons input {
+    padding: 12px 70px;
+    margin-left: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+.buttons input:hover {
+    color: black;
+    background: transparent;
+}
+
+.buttons input:first-child {
+    background-color: white;
+    color: black;
+}
+
+.buttons input:first-child:hover {
+    background-color: #5CC8D7;
+    color: white;
+    border-color: #5CC8D7;
+}
+
+@media screen and (max-width: 767px) {
+    .buttons {
+        text-align: center;
+    }
+
+    .buttons input {
+        margin-bottom: 20px;
+    }
+}

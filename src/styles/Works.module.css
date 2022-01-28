@@ -1,0 +1,96 @@
+.container {
+    margin: 40px auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.heading h2 {
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 400;
+    background: url("../../public/images/brush.png");
+    background-size: cover;
+    color: white;
+    padding: 10px 60px;
+    background-repeat: no-repeat;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryItem {
+    margin: 20px;
+}
+
+.galleryItem h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.galleryItem p {
+    margin: 10px 0;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+    max-width: 500px;
+}
+
+.opacity {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    height: calc(100% - 4px);
+}
+
+.opacity svg {
+    color: white;
+    font-size: 32px;
+}
+
+.opacity div {
+    border-radius: 50%;
+    background: black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .img img {
+        max-width: 300px;
+    }
+
+    .gallery {
+        justify-content: center;
+    }
+
+    .heading h2 {
+        padding: 10px 40px;
+    }
+}
