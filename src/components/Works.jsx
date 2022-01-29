@@ -11,7 +11,7 @@ const Services = () => {
             <div className={style.galleryItem}>
                 <div className={style.img}>
                     <img src="images/maksadov.png" alt="Landing page" />
-                    <a href="http://maksadov.netlify.app" target="_blank">
+                    <a href="http://maksadov.netlify.app" target="_blank" rel="noreferrer">
                         <div className={style.opacity}>
                             <div>
                                 <MdSearch />
@@ -25,7 +25,7 @@ const Services = () => {
             <div className={style.galleryItem}>
                 <div className={style.img}>
                     <img src="images/tesla.png" alt="Tesla Clone" />
-                    <a href="http://tesla-uz.netlify.app" target="_blank">
+                    <a href="http://tesla-uz.netlify.app" target="_blank" rel="noreferrer">
                         <div className={style.opacity}>
                             <div>
                                 <MdSearch />
@@ -39,7 +39,7 @@ const Services = () => {
             <div className={style.galleryItem}>
                 <div className={style.img}>
                     <img src="images/marico.png" alt="Marico website" />
-                    <a href="http://marico-app.netlify.app" target="_blank">
+                    <a href="http://marico-app.netlify.app" target="_blank" rel="noreferrer">
                         <div className={style.opacity}>
                             <div>
                                 <MdSearch />
@@ -53,7 +53,7 @@ const Services = () => {
             <div className={style.galleryItem}>
                 <div className={style.img}>
                     <img src="images/template.png" alt="IT Consulting" />
-                    <a href="http://consulting-uz.netlify.app" target="_blank">
+                    <a href="http://consulting-uz.netlify.app" target="_blank" rel="noreferrer">
                         <div className={style.opacity}>
                             <div>
                                 <MdSearch />

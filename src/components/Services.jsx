@@ -31,7 +31,7 @@ const Services = () => {
             </div>
             <div className={style.galleryItem}>
                 <div className={style.img}>
-                    <img src="images/production.png" alt="Photo and Video" />
+                    <img src="images/production.png" alt="Production" />
                 </div>
                 <h3>Photography and Videography</h3>
                 <p>Production</p>
