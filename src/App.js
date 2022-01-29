@@ -11,9 +11,9 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="http://sukhrob-tech.netlify.app/about" element={<About />} />
+        <Route path="http://sukhrob-tech.netlify.app/contact" element={<Contact />} />
+        <Route path="http://sukhrob-tech.netlify.app/services" element={<Services />} />
       </Routes>
     </>
   );
