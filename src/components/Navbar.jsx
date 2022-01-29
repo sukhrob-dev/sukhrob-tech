@@ -1,6 +1,7 @@
 import style from "../styles/Navbar.module.css";
 import { RiMenu4Fill } from "react-icons/ri";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -16,16 +17,16 @@ const Navbar = () => {
             </a>
             <ul className={`${style.list} ${menu ? style.active : ""}`}>
                 <li>
-                    <a href="/" className={style.links}>Home</a>
+                    <Link to="/" className={style.links}>Home</Link>
                 </li>
                 <li>
-                    <a href="/about" className={style.links}>About</a>
+                    <Link to="/about" className={style.links}>About</Link>
                 </li>
                 <li>
-                    <a href="/contact" className={style.links}>Contact</a>
+                    <Link to="/contact" className={style.links}>Contact</Link>
                 </li>
                 <li>
-                    <a href="/services" className={style.links}>Pricing and Services</a>
+                    <Link to="/services" className={style.links}>Pricing and Services</Link>
                 </li>
             </ul>
             <RiMenu4Fill className={style.menu} onClick={iconClick} />
