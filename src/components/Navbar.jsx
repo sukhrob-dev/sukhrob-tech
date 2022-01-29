@@ -19,13 +19,13 @@ const Navbar = () => {
                     <a href="/" className={style.links}>Home</a>
                 </li>
                 <li>
-                    <a href="/about" className={style.links}>About</a>
+                    <a href="http://sukhrob-tech.netlify.app/about" className={style.links}>About</a>
                 </li>
                 <li>
-                    <a href="/contact" className={style.links}>Contact</a>
+                    <a href="http://sukhrob-tech.netlify.app/about/contact" className={style.links}>Contact</a>
                 </li>
                 <li>
-                    <a href="/services" className={style.links}>Pricing and Services</a>
+                    <a href="http://sukhrob-tech.netlify.app/about/services" className={style.links}>Pricing and Services</a>
                 </li>
             </ul>
             <RiMenu4Fill className={style.menu} onClick={iconClick} />
