@@ -80,7 +80,7 @@ const About = () => {
                         <FaInstagram />
                     </a>
                 </div>
-                <a href="/CV.pdf" className={style.btn} download>Download CV</a>
+                <a href="/umumiy.txt" className={style.btn} download>Download CV</a>
             </div>
         </div>
         <div className={style.footer}>
